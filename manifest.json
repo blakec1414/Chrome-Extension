@@ -1,6 +1,6 @@
 {
     "manifest_version": 2, 
-    "name": "UPDATE: Name of your plugin",
+    "name": "DEMO",
     "description": "UPDATE: Description of your plugin",
     "version": "1.0",
     "permissions": ["activeTab"],
@@ -8,8 +8,8 @@
         {
             "matches": ["<all_urls>"],
             "allFrames": true,
-            "js": ["/js/jquery.js", "/js/content.js"],
-            "css": ["/css/style.css"]
+            "js": ["/js/jquery.js", "/js/content.js", "/js/popup.js"],
+            "css": ["/css/style.css", "/css/popup.css"]
        }
      ],
     "action": {
